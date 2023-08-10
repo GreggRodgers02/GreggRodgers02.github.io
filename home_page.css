@@ -1,0 +1,652 @@
+.tablet {
+    display: none;
+}
+.pc {
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E3E3E3;
+}
+.outer_header {
+    display: block;
+    background: linear-gradient(180deg, #A70000 0%, #3D0000 100%);
+    width: 100%;
+    height: 67px;
+}
+.mainpage_image_1 {
+    height: 185px;
+}
+.mainpage_image_1 img{
+    height: 185px;
+    width: 100%;
+    margin: 0;
+}
+.title_section{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 138px;
+    color: white;
+}
+.inner_title {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.inner_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 10px;
+}
+#title {
+text-align: center;
+font-size: 20px;
+font-family: Garamond;
+}
+#date {
+    text-align: center;
+    font-size: 50px;
+    font-family: Garamond;
+}
+#slogan {
+    text-align: center;
+    font-size: 20px;
+    font-family: Garamond;
+}
+.mainpage_image_2 {
+    height: 185px;
+}
+.mainpage_image_2 img {
+    height: 185px;
+    width: 100%;
+}
+.cau_edu_section {
+    width: 100%;
+    height: 128.161px;
+    display: block;
+    background: #848484;
+}
+.inner_cau_edu {
+    padding: 25px;
+ display: flex;
+ flex-direction: column;
+}
+.inner_cau_edu p {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px 0px red;
+    font-size: 10px;
+    font-family: Garamond;
+    margin-bottom: 10px;
+}
+.inner_cau_edu a {
+    text-align: center;
+    font-size: 25px;
+    font-family: Garamond;
+    color: black;
+}
+#search {
+    width: 168px;
+    height: 28px;
+    border-radius: 19px;
+    background-color: white;
+}
+.event_calender {
+    color: #000;
+    text-align: center;
+    font-size: 37px;
+    font-family: Garamond;
+    margin-top: 40px;
+}
+.date_box{
+    display: block;
+    width: 85%;
+    height: 494px;
+    background: #FFF;   
+    border: 20px solid #000;
+    border-radius: 22px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+#month {
+    text-align: center;
+    font-size: 40px;
+    font-family: Garamond;
+}
+#day {
+    color: #C60000;   
+    text-align: center;
+    font-size: 200px;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+#event_title, #time {
+    font-size: 40px;
+    text-align: center;
+    font-family: Garamond;
+}
+.inner_date_box {
+    padding: 70px;
+}
+.outer_footer {
+    margin-top: 140px;
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 981px;
+}
+.inner_footer {
+    color: white;
+}
+.inner_footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 22px;
+}
+.inner_footer p  {
+    color: white;
+    text-align: center;
+}
+#first_footer_link {
+    margin-top: 40px;
+}
+#last_footer_link {
+    margin-bottom: 40px;
+}
+.footer_icon {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_icon a {
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+
+
+
+@media (min-width: 580px) {
+    .phone {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+    .mainpage_image_1 {
+        height: 290px;
+    }
+    .mainpage_image_1 img{
+        height: 290px;
+        width: 100%;
+        margin: 0;
+    }
+    .title_section{
+        display: block;
+        background-color: #A70000;
+        width: 100%;
+        height: 200px;
+        color: white;
+    }
+    .inner_title {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cau_edu_section {
+        width: 100%;
+        height: 200px;
+        display: block;
+        background: #848484;
+    }
+    .inner_cau_edu {
+        padding: 25px;
+     display: flex;
+     flex-direction: column;
+    }
+    .inner_cau_edu p {
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 0px 4px 4px 0px red;
+        font-size: 10px;
+        font-family: Garamond;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .inner_cau_edu a {
+        text-align: center;
+        font-size: 30px;
+        font-family: Garamond;
+        color: black;
+    }
+    #title {
+        text-align: center;
+        font-size: 20px;
+        font-family: Garamond;
+        }
+        #date {
+            text-align: center;
+            font-size: 100px;
+            font-family: Garamond;
+        }
+        #slogan {
+            text-align: center;
+            font-size: 20px;
+            font-family: Garamond;
+        }
+        .outer_header {
+            display: block;
+            position: absolute;
+            background: none;
+            width: 100%;
+            height: 67px;
+        }
+        #search {
+            width: 55%;
+            height: 28px;
+            border-radius: 19px;
+            background-color: white;
+            border: solid 3px;
+        }
+        .mainpage_image_2 {
+            height: 290px;
+        }
+        .mainpage_image_2 img {
+            height: 290px;
+            width: 100%;
+        }
+
+
+        .date-flex{
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+        }
+        .date_box{
+            display: block;
+            width: 25%;
+            height: 40%;
+            background: #FFF;   
+            border: 2px solid #000;
+            border-radius: 22px;
+            align-items: center;
+            margin: auto;
+            margin-top: 40px;
+            
+        }
+        #month {
+            text-align: center;
+            font-size: 20px;
+            font-family: Garamond;
+            position: relative;
+            right: 35px;
+        }
+        #day {
+            color: #C60000;   
+            text-align: center;
+            font-size: 50px;
+            font-family: Roboto;
+            font-weight: bolder;
+            position: relative;
+            right: 38px;
+        }
+        #event_title, #time {
+            font-size: 15px;
+            text-align: center;
+            font-family: Garamond;
+            position: relative;
+            right: 35px;
+            width: 40px;
+        }
+        .inner_date_box {
+            padding: 70px;
+        }
+        .footer_background {
+            margin-top: 130px;
+            position: relative;
+            top: 5px;
+        }
+        .footer_background img {
+            width: 100%;
+            margin: 0;
+        }
+        .outer_footer {
+            display: block;
+            background-color: #000;
+            height: 200px;
+            margin: 0;
+           
+        }
+     
+        .inner_footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            bottom: 220px;
+        }
+        .socials {
+            display: flex;
+            text-align: center;
+            margin-top: 50px;
+            justify-content: space-around;
+        }
+        .socials a {
+            position: relative;
+            bottom: 25px;
+        }
+        .credits {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .links a {
+            margin: 2;
+        }
+}
+
+
+
+@media only screen and (min-width: 801px) {
+.phone {
+    display: none;
+}
+.tablet {
+    display: none;
+}
+.pc {
+    display: block;
+}
+.outer_header {
+    display: block;
+    background: #000;
+    width: 100%;
+    height: 86px;
+    position: fixed;
+    z-index: 30;
+}
+#search {
+    width: 25%;
+    height: 38px;
+    border-radius: 19px;
+    background-color: white;
+    border: solid 3px;
+}
+#cau_icon {
+    width: 65px;
+    height: 65px;
+}
+nav a{
+text-decoration: none;
+color: white;
+padding: 25px;
+font-size: 20px;
+font-weight: bolder;
+}
+.inner_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 10px;
+}
+.mainpage_image_1 {
+    height: 800px;
+}
+.mainpage_image_1 img{
+    height: 800px;
+    width: 100%;
+    margin: 0;
+}
+.title_section{
+    display: block;
+    background-color: #A70000;
+    width: 100%;
+    height: 495px;
+    color: white;
+}
+#title {
+    text-align: center;
+    font-size: 80px;
+    font-family: Garamond;
+    }
+    #date {
+        text-align: center;
+        font-size: 200px;
+        font-family: Garamond;
+    }
+    #slogan {
+        text-align: center;
+        font-size: 80px;
+        font-family: Garamond;
+    }
+.mainpage_image_2 {
+    height: 876px;
+}
+.mainpage_image_2 img {
+    height: 876px;
+    width: 100%;
+}
+.cau_edu_section {
+    width: 100%;
+    height: 495px;
+    display: block;
+    background: #848484;
+}
+.date-flex{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-bottom: 30pc;
+}
+.date_box{
+    display: block;
+    width: 25%;
+    height: 542px;
+    background: #FFF;   
+    border: 20px solid #000;
+    border-radius: 22px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.event_calender {
+    color: #000;
+    text-align: center;
+    font-size: 80px;
+    font-family: Garamond;
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+.inner_cau_edu p {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px 0px red;
+    font-size: 45px;
+    font-family: Garamond;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 6pc;
+}
+.inner_cau_edu a {
+    text-align: center;
+    font-size: 80px;
+    font-family: Garamond;
+    color: black;
+    padding: 50px;
+}
+#month {
+    text-align: center;
+    font-size: 60px;
+    font-family: Garamond;
+    position: relative;
+    right: 35px;
+}
+#day {
+    color: #C60000;   
+    text-align: center;
+    font-size: 200px;
+    font-family: Roboto;
+    font-weight: bolder;
+    position: relative;
+    right: 38px;
+}
+#event_title, #time {
+    font-size: 60px;
+    text-align: center;
+    font-family: Garamond;
+    position: relative;
+    right: 35px;
+    width: 100%;
+}
+.inner_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    bottom: 600px;
+    font-size: 35%;
+}
+.socials {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.socials p {
+    position: relative;
+    top: 30px;
+}
+.credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 35px;
+    
+}
+.links a {
+    margin: 3.5pc;
+    
+}
+
+
+
+
+
+}
+@media only screen and (min-width: 1090px) and (max-width: 1700px) {
+    .inner_footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        bottom: 300px;
+        font-size: 35%;
+    }
+    .credits {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        
+    }
+    .links a {
+        margin: 1.5pc;
+        font-size: 20px;
+        
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1090px) {
+    .inner_footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        bottom: 300px;
+        font-size: 35%;
+    }
+    .socials {
+        display: flex;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .credits {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        
+    }
+    .links a {
+        margin: 1.5pc;
+        
+    }
+}
+
+
+
+
+/* Drop Down Menu */  
+@media only screen and (max-width: 801px) {
+      /* The initial position of the dropdown, hidden off the screen */
+      .dropdown-content {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background-color: #910606;
+        padding: 20px;
+        transition: top 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        z-index: 100;
+      }
+      .dropdown-content a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+      }
+      .dropdown-content button {
+        display: block;
+        margin: 0 auto;
+        background-color: white;
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 20px;
+        
+      }
+      
+      /* Show the dropdown when the button is clicked */
+      .show-dropdown {
+        top: 0;
+      }
+      .splitter {
+        display: block;
+        background-color: white;
+        width: 100%;
+        height: 1px;
+      }
+      
+}
