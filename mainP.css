@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.outerHeader {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.innerHeader {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.innerHeader a {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#current {
+    color: red;
+}
+
+
+#red {
+    color: red;
+}
+.intro h1 {
+    font-size: 40px;
+    margin: 20px 0 0 15px;
+}
+.innerNews {
+    display: block;
+    background-color: rgb(242, 155, 155);
+    width: 300px;
+    text-align: center;
+    border: 5px solid black;
+}
+.innerNews img {
+    width: 100%;
+}
+.innerNews button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 35px;
+    width: 80px;
+}
+.news {
+    display: flex;
+    justify-content: center;
+}
+.newsTitle {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+#slideShow {
+    text-align: center;
+    font-size: 60px;
+}
+
+.wallet {
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap:50px;
+    text-align: center;
+}
+.walletTitle {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.wallet img {
+    width: 80px;
+}
+.outerFooter {
+    margin-top: 50px;
+    width: 100%;
+    color: white;
+    display: block;
+    background-color: black;
+}
+.innerFooter {
+    padding: 20px;
+    text-align: center;
+}
+.innerFooter h3 {
+    margin: 10px 0;
+}
+
+.website {
+    margin-top: 50px;
+    text-align: center;
+}
+.website button {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background: linear-gradient(45deg, rgb(109, 11, 11), rgb(0, 0, 0));
+    color: white;
+}
